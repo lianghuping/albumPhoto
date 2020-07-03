@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light">
+        <item name="android:windowTitleSize">35dp</item>
+        <item name="android:windowContentOverlay">@color/noncolort</item>
+        <item name="android:windowTitleBackgroundStyle">@style/TileBackground</item>
+    </style>
+    <color name="noncolort">#00000000</color>
+    <style name="TileBackground">
+        <item name="android:background">@drawable/duigou</item>
+    </style>
+
+    <declare-styleable name="TopBar">
+        <attr name="leftBackground" format="reference" />
+        <attr name="rightBackground" format="reference" />
+        <attr name="titleText" format="string" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleTextColor" format="color" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00000000</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="line_title">#d7d7d7</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="mine_txt">#BFBEBC</color>
+    <color name="line">#DDDDDD</color>
+    <color name="color_hei_8">#00000000</color>
+    <color name="color_5">#555555</color>
+    <color name="text_main_color">#5D97FF</color>
+    <color name="top_category_scroll_text_color_day">#ff909090</color>
+
+    <color name="movie_up_gray">#9E9C9A</color>
+    <color name="movie_669E9C9A">#669E9C9A</color>
+    <color name="movie_999E9C9A">#999E9C9A</color>
+    <color name="movie_up_pink">#FF3C67</color>
+    <color name="color_EBAE8E">#EBAE8E</color>
+    <color name="color_5E6273">#5E6273</color>
+    <color name="transparent_black_66">#66000000</color>
+    <color name="transparent_black_50">#7f000000</color>
+    <color name="dot_red">#E73111</color>
+    <color name="text_bottom_comment">#9B9B9B</color>
+    <color name="gray_d8">#ffd8d8d8</color>
+    <color name="color_6f">#6f6f6f</color>
+    <color name="black_21">#212121</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_E5E5E5">#E5E5E5</color>
+    <color name="color_5143EA">#5143EA</color>
+    <color name="color_F8950A">#F8950A</color>
+</resources>

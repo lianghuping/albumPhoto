@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageview_clear"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:scaleType="fitXY"
+        android:src="@color/color_5143EA" />
+
+    <ImageView
+        android:id="@+id/imageview_clear2"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:alpha="0"
+        android:scaleType="fitXY"
+        android:src="@color/color_F8950A" />
+
+    <ImageView
+        android:id="@+id/imageview_clear_back"
+        android:layout_width="15dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/fanhui" />
+
+    <TextView
+        android:id="@+id/tv_cleat_sizenum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:includeFontPadding="false"
+        android:text="19"
+        android:textColor="#FFFFFF"
+        android:textSize="80dp" />
+
+    <TextView
+        android:id="@+id/tv_cleat_huancun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="88dp"
+        android:layout_toRightOf="@+id/tv_cleat_sizenum"
+        android:includeFontPadding="false"
+        android:text="照片缓存"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_cleat_sizedanwei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_cleat_huancun"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tv_cleat_sizenum"
+        android:includeFontPadding="false"
+        android:text="MB"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_cleat_wenben"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_cleat_sizenum"
+        android:layout_alignLeft="@+id/tv_cleat_sizenum"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:includeFontPadding="false"
+        android:text="清理照片缓存，让手机快如闪电"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_clear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/ic_launcher_background" />
+
+
+    <TextView
+        android:id="@+id/tv_clear"
+        android:layout_width="337dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_launcher_background"
+        android:gravity="center"
+        android:text="放心清理"
+        android:textColor="@color/white"
+        android:layout_marginBottom="33dp"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
